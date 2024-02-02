@@ -1,5 +1,5 @@
 # Use a base image with Java and Alpine Linux
-FROM openjdk:11-jre-slim
+FROM eclipse-temurin:17
 WORKDIR /app
 COPY target/fire-*.jar frontend-service.jar
 
